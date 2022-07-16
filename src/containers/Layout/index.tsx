@@ -1,5 +1,5 @@
 import React from "react";
-import History from "../History";
+import About from "../About";
 import Jumbotron from "../Jumbotron";
 import TimeLine from "../Timeline";
 
@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
             <TimeLine />
             <Line />
             <Jumbotron />
-            <History />
+            <About />
         </Container>
     )
 }

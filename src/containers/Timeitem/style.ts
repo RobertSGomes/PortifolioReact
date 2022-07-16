@@ -11,7 +11,7 @@ export const Item = styled.div<Props>`
 
     background: var(--background-pri);
     
-    border: ${props => props.hasPassed ? "2px solid var(--active)" : "2px solid var(--font)"};
+    border: ${props => props.hasPassed ? "2px solid var(--active)" : "2px solid var(--active)"};
     border-radius: 50%;
 
     cursor: pointer;

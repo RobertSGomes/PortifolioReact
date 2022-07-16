@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Home from "./components/Home";
-import Layout from "./components/Layout";
+import Home from "./containers/Home";
+import Layout from "./containers/Layout";
 import { GuestContext, guestValue } from "./contexts/guestContext";
 import GlobalStyles from "./global/global"
 

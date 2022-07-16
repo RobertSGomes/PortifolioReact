@@ -25,7 +25,7 @@ const Form: React.FC<Props> = ({ setState }) => {
 
     return (
         <FormWrapper>
-            <input autoFocus type="text" placeholder="Seu nome" maxLength={21} onKeyPress={(e) => handler(e)} onKeyUp={(e) => handleSetInput(e)} />
+            <input autoFocus type="text" placeholder="Your name" maxLength={21} onKeyPress={(e) => handler(e)} onKeyUp={(e) => handleSetInput(e)} />
         </FormWrapper>
     )
 }

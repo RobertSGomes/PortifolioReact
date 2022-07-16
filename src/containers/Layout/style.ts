@@ -1,26 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    height: 2000px;
+`
+
+export const Line = styled.div`
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
-    gap: 15px;
+
+    width: 64px;
+    height: 100vh;
 
     position: fixed;
-
-    height: 100vh;
-    width: 64px;
+    right: 0;
 
     &::before {
         content: '';
 
-        position: absolute;
-
         width: 2px;
         height: 100%;
 
-        background: var(--background-sec);
+        position: absolute;
+
+        background: var(--line);
     }
 `

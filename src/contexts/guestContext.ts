@@ -6,7 +6,7 @@ interface GuestInterface {
 }
 
 export const guestValue: GuestInterface = {
-    name: "guest"
+    name: "world"
 }
 
 export const GuestContext = createContext<GuestInterface>(guestValue)

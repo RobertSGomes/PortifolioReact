@@ -25,10 +25,10 @@ const Home: React.FC<Props> = ({ setState }) => {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("Seja bem-vindo(a)")
+                        .typeString("Welcome")
                         .pauseFor(500)
                         .deleteAll()
-                        .typeString("Como você se chama?")
+                        .typeString("What's your name?")
                         .callFunction(typeWriter)
                         .start()
                 }}

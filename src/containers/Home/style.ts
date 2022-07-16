@@ -30,6 +30,7 @@ export const Container = styled.div`
 
       padding: 15px;
 
+      color: var(--font-sec);
       font-size: 12px;
 
       border-radius: 10px;

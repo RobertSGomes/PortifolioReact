@@ -9,7 +9,6 @@ export default createGlobalStyle`
 
         box-sizing: border-box;
 
-        color: var(--font);
         font-family: "Lato", sans-serif;
     }
 
@@ -18,7 +17,7 @@ export default createGlobalStyle`
     }
 
     body {
-        background-image: radial-gradient(ellipse at top left, var(--background-ter), var(--background-pri));
+        background-image: --background-pri;
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -37,16 +36,23 @@ export default createGlobalStyle`
     }
 
     :root {
-        --active: #e7bfa5;
-        --hover: #fff1ce;
+        --active: #272643;
+        --hover: #2c698d;
 
-        --background-pri: #1A1423;
-        --background-sec: #47305F;
-        --background-ter: #251C35;
+        --background-pri: #fff;
+        --background-sec: #272643;
 
-        --font: #fff;
-        --font-sec: #a8a8b3;
-        --font-detail: #8F6AB4;
+        --font: #272643;
+        --font-sec: #fff;
+        --font-detail: #2c698d;
+        
+        --line: #2c698d;
+        
+        --button-back: #fff;
+        --button-border: #272643;
+        --button-font: #272643;
+        --button-hover-back: #272643;
+        --button-hover-font: #fff;
     }
 
     h1 {
